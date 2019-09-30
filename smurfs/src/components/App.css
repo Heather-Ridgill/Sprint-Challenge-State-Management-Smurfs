@@ -1,3 +1,28 @@
+.container {
+  text-align: center;
+}
+
+form {
+  flex-direction: column-reverse;
+
+  background-color: white;
+  color: black;
+  margin: 75px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+p {
+  font-weight: bold;
+}
+
+label {
+  padding: 15px;
+}
+
+input {
+  flex-direction: row;
+}
+
 .App {
   text-align: center;
 }
@@ -14,15 +39,14 @@
   color: white;
 }
 
+form {
+  flex-direction: column-reverse;
+}
+
 .App-title {
   font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
